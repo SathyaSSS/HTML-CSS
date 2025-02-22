@@ -1,0 +1,10 @@
+th{
+    background-color:black;
+    color: beige;
+}
+table{
+    border: 2px;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+}

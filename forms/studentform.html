@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Form</title>
+</head>
+<style>
+   table{
+    width: 100%;
+   }
+   button{
+    margin-left: 50px;
+   }
+   body{
+    line-height: 35px;
+   }
+   button:hover{
+    background-color: black;
+    color:white ;
+   }
+   fieldset{
+    border: 3px solid black;
+   }
+   legend{
+    border:3px black;
+   }
+
+  
+    
+</style>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Student-info</legend>
+            <table>
+                <tr>
+                    <td><label for="">StudentName :</label></td>
+                    <td><input type="text" placeholder="Enter the Name"></td>
+                    <td><label for="">FatherName :</label></td>
+                    <td><input type="text" placeholder="Enter the Name"></td>
+                    <td><label for="">MotherName :</label></td>
+                    <td><input type="text" placeholder="Enter the Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date-of-Birth :</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email :</label></td>
+                    <td><input type="email" placeholder="Enter the Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender :</label></td>
+                    <td>
+                    <input type="radio" name="radio">Male
+                    <input type="radio" name="radio">Female
+                    <input type="radio" name="radio">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">MobileNo :</label></td>
+                    <td><input type="number" placeholder="Enter the Mobile number"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Languages Known :</label></td>
+                    <td>
+                        <input type="checkbox">Tamil <br>
+                        <input type="checkbox">English <br>
+                        <input type="checkbox">Telungu <br> 
+                        <input type="checkbox">Malayalam <br>
+                        <input type="checkbox">Kannadam <br> 
+                        <input type="checkbox">Urudu <br>
+                        <input type="checkbox">Others 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Address :</label></td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">State :</label></td>
+                    <td><select name="" id="">
+                        <option value="">...select...</option>
+                        <option value="">TamilNadu</option>
+                        <option value="">Kerala</option>
+                        <option value="">Andhra pradesh</option>
+                        <option value="">Karnataka</option>
+                        <option value="">Delhi</option>
+                        <option value="">Gujarat</option>
+                        <option value="">Assam</option>
+                        <option value="">Others</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Aadhar Card :</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="6" align="center" ><button>Submit</button>
+                    <button>Reset</button></td>
+
+                </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

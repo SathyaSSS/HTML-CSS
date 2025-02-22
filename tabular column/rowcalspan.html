@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        th{
+            background-color:black;
+            color: beige;
+        }
+        #abc{
+            color: blue;
+        }
+        .rendu{
+            color: aqua;
+        }
+        .moonu{
+            color: brown;
+        }
+        .naalu{
+            color: chartreuse;
+        }
+    </style>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rowspan/colspan</title>
+</head>
+<body>
+    <table align="center" border="3px" width="700px" height="500px">
+        <thead height="50px">
+            <tr>
+                <th>SID</th>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th colspan="2">COURSES</th>
+                <th colspan="2">DEGREES</th>
+            </tr>
+            <tbody align="center"  style="background-color: whitesmoke;">
+                <tr id="abc">
+                    <td>1</td>
+                    <td>Vinayaga</td>
+                    <td>25</td>
+                    <td rowspan="2">python</td>
+                    <td rowspan="5">sql</td>
+                    <td rowspan="2">UG</td>
+                    <TD>BE</TD>
+                </tr>
+                <tr class="rendu">
+                    <td>2</td>
+                    <td>Muruga</td>
+                    <td>22</td>
+                    <td>BTECH</td>
+                </tr>
+                <tr class="moonu">
+                    <td>3</td>
+                    <td>Sivan</td>
+                    <td>40</td>
+                    <td rowspan="3">html</td>
+                    <td rowspan="3">PG</td>
+                    <td>ME</td>
+                </tr>
+                
+                <tr class="naalu">
+                    <td>4</td>
+                    <td>subaa</td>
+                    <td>21</td>
+                    <td>MTECH</td>
+                </tr>
+            </tbody>
+            
+
+        </thead>
+    </table>
+    
+</body>
+</html>
